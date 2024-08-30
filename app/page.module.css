@@ -1,0 +1,390 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 600px;
+}
+
+.headerTitleSection {
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.headerIntro {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'GowunBatang';
+  margin-bottom: 64px;
+}
+
+.headerSubtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark70-color);
+}
+
+.headerTitle {
+  margin-top: 8px;
+  font-size: 76px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.headerImageWrapper {
+  position: relative;
+  margin-left: 120px;
+  width: 468px;
+  height: 100%;
+}
+
+.introContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.introContent {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introTitle {
+  font-size: 32px;
+  line-height: 56px;
+  font-weight: 500;
+  font-family: 'GowunBatang';
+  text-align: center;
+}
+
+.introDescription {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--dark70-color);
+  font-weight: 500;
+  margin-top: 24px;
+  font-family: 'GowunBatang';
+}
+
+.giveAndTakeContainer {
+  width: 100%;
+  height: 804px;
+  padding: 80px 0 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.giveAndTakeContent {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.giveAndTakeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+  gap: 16px;
+}
+
+.giveAndTakeTextWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.giveAndTakeTitle {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: 'GowunBatang';
+}
+
+.giveAndTakeText {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'GowunBatang';
+}
+
+.giveAndTakeImageWrapper1 {
+  position: relative;
+  width: 248px;
+  height: 480px;
+}
+
+.giveAndTakeImageWrapper2 {
+  position: relative;
+  width: 248px;
+  height: 480px;
+}
+
+.giveAndTakeImage {
+  width: 100%;
+  height: auto;
+}
+
+.diaryContainer {
+  width: 100%;
+  height: 624px;
+  padding: 64px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.diaryContent {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.diaryTextWrapper {
+  width: 248px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.diaryTitle {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: 'GowunBatang';
+}
+
+.diaryText {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'GowunBatang';
+}
+
+.diaryImageWrapper {
+  position: relative;
+  width: 248px;
+  height: 480px;
+}
+
+.diaryImage {
+  width: 100%;
+  height: auto;
+}
+
+.footerContainer {
+  width: 100vw;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerTitle {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'GowunBatang';
+  margin-bottom: 24px;
+}
+
+.footerWrapper {
+  margin-top: 48px;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 568px) and (max-width: 1120px) {
+  .headerContainer {
+    height: 1200px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 48px;
+    height: 960px;
+  }
+
+  .headerImageWrapper {
+    margin-left: 0;
+  }
+
+  .giveAndTakeWrapper {
+    width: 268px;
+  }
+
+  .diaryContent {
+    gap: 24px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 568px) {
+  .headerContainer {
+    height: min(100vh, 640px);
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headerTitleSection {
+    align-items: center;
+  }
+
+  .headerTitle {
+    font-size: 64px;
+  }
+
+  .headerImageWrapper {
+    display: none;
+  }
+
+  .introContainer {
+    height: 320px;
+  }
+
+  .introTitle {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .introDescription {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .giveAndTakeContainer {
+    padding: 32px 0;
+    height: 680px;
+    gap: 8px;
+  }
+
+  .giveAndTakeTextWrapper {
+    flex: 0;
+  }
+
+  .giveAndTakeContent {
+    flex-direction: column;
+  }
+
+  .giveAndTakeWrapper {
+    width: 288px;
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+
+  .giveAndTakeImageWrapper1 {
+    display: none;
+  }
+
+  .giveAndTakeImageWrapper2 {
+    width: 288px;
+    height: 480px;
+  }
+
+  .diaryContainer {
+    padding: 32px 0;
+    height: 680px;
+  }
+
+  .diaryContent {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .diaryTextWrapper {
+    width: 100%;
+    gap: 8px;
+    height: fit-content;
+  }
+
+  .diaryImageWrapper {
+    width: 288px;
+    height: 480px;
+  }
+
+  .footerContainer {
+    width: 232px;
+  }
+
+  .footerTitle {
+    font-size: 12px;
+  }
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+
+  .appStoreLogo,
+  .googleStoreLogo {
+    filter: invert(1);
+  }
+
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

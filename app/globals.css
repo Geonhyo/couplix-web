@@ -1,0 +1,90 @@
+:root {
+  --font-mono: 'Paybooc', ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --dark-color: #07032D;
+  --dark70-color: #514F6C;
+  --dark30-color: #A8A7B5;
+  --white-color: #FFFFFF;
+  --primary-color: #E7EBF7;
+  --background-color: #F9F9F9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--dark-color);
+  background: var(--white-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Paybooc';
+  src: url('/fonts/Paybooc/Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Paybooc';
+  src: url('/fonts/Paybooc/Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Paybooc';
+  src: url('/fonts/Paybooc/Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Paybooc';
+  src: url('/fonts/Paybooc/ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GowunBatang';
+  src: url('/fonts/GowunBatang/Regular.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GowunBatang';
+  src: url('/fonts/GowunBatang/Bold.ttf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JNEBareun';
+  src: url('/fonts/JNEBareun/Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JNEBareun';
+  src: url('/fonts/JNEBareun/Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
