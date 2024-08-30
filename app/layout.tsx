@@ -3,7 +3,7 @@ import "@/app/globals.css";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://couplix.com",
+    canonical: "https://www.couplix.com",
   },
   title: "Couplix | 우리가 더 가까워지는 공간",
   description:
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     description:
       "함께한 순간들은 차곡차곡 기록하고, 서로의 순간들은 주고받아보세요",
     type: "website",
-    url: "https://couplix.com",
+    url: "https://www.couplix.com",
     images: [
       {
-        url: "https://couplix.com/og-image.jpg",
+        url: "https://www.couplix.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Couplix Open Graph Image",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "함께한 순간들은 차곡차곡 기록하고, 서로의 순간들은 주고받아보세요",
     images: [
       {
-        url: "https://couplix.com/og-image.jpg",
+        url: "https://www.couplix.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Couplix Open Graph Image",
@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <link rel="canonical" href="https://couplix.com" />
+        <link rel="canonical" href="https://www.couplix.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -58,16 +58,16 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Couplix",
-              url: "https://couplix.com",
+              url: "https://www.couplix.com",
               openGraph: {
                 title: "Couplix | 우리가 더 가까워지는 공간",
                 description:
                   "함께한 순간들은 차곡차곡 기록하고, 서로의 순간들은 주고받아보세요",
                 type: "website",
-                url: "https://couplix.com",
+                url: "https://www.couplix.com",
                 images: [
                   {
-                    url: "https://couplix.com/og-image.jpg",
+                    url: "https://www.couplix.com/og-image.jpg",
                     width: 1200,
                     height: 630,
                     alt: "Couplix Open Graph Image",
